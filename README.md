@@ -1,9 +1,7 @@
 <img height="204" src="https://cloud.githubusercontent.com/assets/464822/20228152/d3f36dc2-a804-11e6-80ff-51ada2d13ea7.png">
 
 # [Blueprint](http://blueprintjs.com/) [![CircleCI](https://circleci.com/gh/palantir/blueprint/tree/develop.svg?style=svg)](https://circleci.com/gh/palantir/workflows/blueprint)
-
 Blueprint is a React-based UI toolkit for the web.
-
 It is optimized for building complex, data-dense web interfaces for _desktop applications_.
 If you rely heavily on mobile interactions and are looking for a mobile-first UI toolkit, this may not be for you.
 
@@ -43,18 +41,15 @@ These are the component libraries we publish to NPM.
 - [![npm](https://img.shields.io/npm/v/@blueprintjs/labs.svg?label=@blueprintjs/labs)](https://www.npmjs.com/package/@blueprintjs/labs) &ndash; Incubator and staging area for new components still under initial development.
 
 ### Applications
-
 These are hosted on GitHub Pages as static web applications:
 
 - `docs-app` &ndash; Documentation site at blueprintjs.com/docs
 - `landing-app` &ndash; Landing page at blueprintjs.com
-
 These are used as development playground environments:
 
 - `table-dev-app` &ndash; demo page that supports manual testing of all table features
 
 ### Build tooling
-
 These packages define development dependencies and contain build configuration. They adhere to the standard NPM package layout, which allows us to keep clear API boundaries for build configuration and isolate groups of `devDependencies`. They are published to NPM in order to allow other Blueprint-related projects to use this infrastructure outside this monorepo.
 
 - [![npm](https://img.shields.io/npm/v/@blueprintjs/docs-theme.svg?label=@blueprintjs/docs-theme)](https://www.npmjs.com/package/@blueprintjs/docs-theme) &ndash; Documentation theme for [Documentalist](https://github.com/palantir/documentalist) data.
@@ -65,7 +60,6 @@ These packages define development dependencies and contain build configuration. 
 - [![npm](https://img.shields.io/npm/v/@blueprintjs/webpack-build-scripts.svg?label=@blueprintjs/webpack-build-scripts)](https://www.npmjs.com/package/@blueprintjs/webpack-build-scripts)
 
 ## Contributing
-
 Looking for places to contribute to the codebase?
 First read the [contribution guidelines](https://github.com/palantir/blueprint/blob/develop/CONTRIBUTING.md),
 then [check out the "help wanted" label](https://github.com/palantir/blueprint/labels/help%20wanted).
